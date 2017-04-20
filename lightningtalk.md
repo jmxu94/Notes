@@ -16,10 +16,15 @@ If HTTP is a stateless protocol....then sessions makes it stateful.
 * shopping cart contents
 * user id
 
+##### Logging in a User:
+
 ````
 session['user_id'] = @user.id
 User.find(session['user_id']
 ````
+
+##### Clearing Session:
+
 ````
 session.clear
 ````
@@ -47,13 +52,20 @@ Part of the session...but cleared after *each* request.
 * sending an alert
 * sending a success or failure message
 
+##### Sending a logout confirmation:
+
 ````
 flash['notice'] = "Logged out"
 ````
+
+#### Persisting flash data for longer than 1 HTTP request:
+
 ````
 flash.keep
 ````
 
+
+####Additional Information:
 
 [Ruby on Rails Guide: Sessions](http://guides.rubyonrails.org/security.html#sessions)
 
