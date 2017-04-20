@@ -55,7 +55,10 @@ Part of the session...but cleared after *each* request.
 ##### Sending a logout confirmation:
 
 ````
+def destroy 
+session['user_id'] = nil
 flash['notice'] = "Logged out"
+end
 ````
 
 #### Persisting flash data for longer than 1 HTTP request:
