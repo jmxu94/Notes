@@ -58,6 +58,7 @@ Part of the session...but cleared after *each* request.
 def destroy 
 session['user_id'] = nil
 flash['notice'] = "Logged out"
+redirect_to root_url
 end
 ````
 
