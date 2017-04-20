@@ -65,7 +65,7 @@ flash.keep
 ````
 
 
-####Additional Information:
+#### Additional Information:
 
 [Ruby on Rails Guide: Sessions](http://guides.rubyonrails.org/security.html#sessions)
 
