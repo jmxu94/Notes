@@ -1,6 +1,7 @@
 # [MongoDB Server](https://www.mongodb.com/what-is-mongodb)
 
 <hr>
+
 ### What is MongoDB?
 
 - Open-source
@@ -22,7 +23,9 @@
 - documents in collection: unique ````_id```` field as primary key
 
 <hr>
+
 ### MongoDB SetUp
+
 ##### 1. Download MongoDB
 Starting out with homebrew...
 
@@ -51,6 +54,7 @@ mongo
 ````
 
 <hr>
+
 ### Useful Tips
 _1. When naming a database, you cannot use:_
 
@@ -71,7 +75,9 @@ _5. Make a new database:_
 ```` use new_db_name ````
 
 <hr>
+
 ### Documents in Databases:
+
 ##### Making a document:
 ````
 dog = {
@@ -102,6 +108,9 @@ WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
 ````
 db.test.remove{"name" : "Woofers"}
 ````
+
+<hr>
+
 ##### What Values can we store?
 ````
 null : {"name" : null}
@@ -114,8 +123,8 @@ string : {"address" : "123 Main Street"}
 randomdata = {"name" : null ....}
 ````
 
-
 <hr>
+
 #### Resources
 Youtube Tutorial:
 
