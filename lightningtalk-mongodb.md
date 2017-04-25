@@ -125,6 +125,11 @@ randomdata = {"name" : null ....}
 
 <hr>
 
+#### Who uses MongoDB?
+- CERN
+- Foursquare
+- bit.ly
+
 #### Resources
 Youtube Tutorial:
 
@@ -137,3 +142,4 @@ MongoDB Documentation:
 MongoDB & Rails:
 
 [Mongoid Gem](https://gorails.com/guides/setting-up-rails-4-with-mongodb-and-mongoid)
+[MongoDB in Rails Intro](http://kerrizor.com/blog/2014/04/02/quick-intro-to-mongodb-in-rails)
