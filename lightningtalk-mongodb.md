@@ -133,3 +133,7 @@ Youtube Tutorial:
 MongoDB Documentation:
 
 [MongoDB Ruby Documentation on Getting Started](https://docs.mongodb.com/ruby-driver/master/quick-start/)
+
+MongoDB & Rails:
+
+[Mongoid Gem](https://gorails.com/guides/setting-up-rails-4-with-mongodb-and-mongoid)
