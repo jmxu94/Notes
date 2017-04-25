@@ -2,6 +2,7 @@
 
 <hr>
 ### What is MongoDB?
+
 - Open-source
 - Document-oriented database
 - ~~Object Relational Mapping~~
