@@ -1,4 +1,4 @@
-# [MongoDB Server](https://www.mongodb.com/what-is-mongodb)
+# [MongoDB](https://www.mongodb.com/what-is-mongodb)
 
 <hr>
 
